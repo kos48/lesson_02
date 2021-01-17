@@ -13,10 +13,13 @@ while True:
         user_list.append(input('Введите эл-нт: '))
 
 print(f' это ваш список {user_list}')
+
 new_list = user_list
 
 for i in range(1, len(new_list), 2):
-    new_list[i - 1], new_list[i] = new_list[i], new_list[i - 1]
+    """можете объяснить на сл уроке эту конструкцию!"""
+    new_list[i - 1], new_list[i] = new_list[i], new_list[i - 1]#!!!не понял эту конструкцию!!!
+
 print(f'измененный список {new_list}')
 
 
