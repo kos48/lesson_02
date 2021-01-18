@@ -11,3 +11,5 @@ for el in new_str:
         print(el[:10])
     else:
         print(el)
+
+#4

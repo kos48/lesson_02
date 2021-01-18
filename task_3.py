@@ -29,3 +29,5 @@ for key, value in mounth_dict.items():
     for el in value:
         if user_month == el:
             print(f'этот месяц относится к {key}')
+
+#3

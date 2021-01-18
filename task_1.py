@@ -8,3 +8,4 @@ my_list = [123, 'abc', True, 123.456, {'asd': 123, 'fgh': 'qwerty'}, ['sdf', 45]
 for el in my_list:
     print(type(el))
 
+#1

@@ -22,4 +22,4 @@ for i in range(1, len(new_list), 2):
 
 print(f'измененный список {new_list}')
 
-
+#2
