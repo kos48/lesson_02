@@ -7,9 +7,6 @@ user_str = input('введите строку из нескольких слов
 new_str = user_str.split()
 
 for el in new_str:
-    if len(el) > 10:
-        print(el[:10])
-    else:
-        print(el)
+    print(el[:10])
 
-#4
+

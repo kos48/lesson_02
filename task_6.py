@@ -23,7 +23,7 @@ products_list = []
 y = {}
 i=1
 
-for i in range(1,100):
+while True:
     x = input('хотите добавить эл-нт? если нет, напишите "no", если хотите нажми "Enter":  ')
     if x == "no":# организовал выход из цикла
         break
@@ -38,7 +38,7 @@ for i in range(1,100):
         s.append(i)
         s.append(y.copy())
         products_list.append(tuple(s.copy())) # добавляем список упаковав его кортежем в основной список
-
+        i += 1
 print(products_list)
 
 product_name = []
